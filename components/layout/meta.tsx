@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const DOMAIN = "https://precedent.dev";
+const DOMAIN = "https://regroww.com";
 
 export default function Meta({
   title = "Precedent - Building blocks for your Next.js project",
@@ -16,7 +16,9 @@ export default function Meta({
       <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="icon" href="/favicon.ico" />
-
+      <link rel="preconnect" href="https://fonts.gstatic.com"/> 
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta itemProp="image" content={image} />

@@ -45,7 +45,7 @@ export default function Layout({
               height="30"
               className="mr-2 rounded-sm"
             ></Image>
-            <p>Precedent</p>
+            <p>Regroww</p>
           </Link>
           <div>
             <AnimatePresence>
@@ -69,14 +69,15 @@ export default function Layout({
       </main>
       <div className="absolute w-full border-t border-gray-200 bg-white py-5 text-center">
         <p className="text-gray-500">
-          A free template by{" "}
+          © Regroww. All rights reserved{" "}
           <a
             className="font-medium text-gray-800 underline transition-colors"
-            href="https://twitter.com/steventey"
+            style={{marginLeft:10, textDecoration:"none", color:"#1D9BF0"}}
+            href="mailto:support@regroww.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Steven Tey
+            support@regroww.com
           </a>
         </p>
       </div>
