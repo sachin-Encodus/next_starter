@@ -4,9 +4,9 @@ const SubscriptionCard = () => {
   return (
     <div className="flex min-h-screen items-center justify-center">
       <div className="flex justify-items-center gap-4 p-2 pt-24">
-        <div className="flex flex-col items-center justify-between lg:flex-row lg:items-start">
+        <div  className="flex flex-col items-center justify-between lg:flex-row lg:items-start gap-20">
          {/* Card first */}
-          <div className="order-2 mt-8 w-full flex-1 rounded-3xl bg-white p-8 shadow-xl sm:w-96 lg:order-1 lg:w-full lg:rounded-r-none">
+          <div className="order-2 mt-8 w-full flex-1 rounded-3xl bg-white p-8 shadow-xl sm:w-96 lg:order-1 lg:w-full">
             <div className="mb-7 flex items-center border-b border-gray-300 pb-7">
               <img
                 src="https://res.cloudinary.com/williamsondesign/abstract-1.jpg"
@@ -25,12 +25,7 @@ const SubscriptionCard = () => {
               </div>
             </div>
             <ul className="mb-7 font-medium text-gray-500">
-              <li className="mb-2 flex text-lg">
-                <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
-                <span className="ml-3 text-black">
-                  15% - 20% Equity stack in Company
-                </span>
-              </li>
+             
               <li className="mb-2 flex text-lg">
                 <img src="https://res.cloudinary.com/williamsondesign/check-grey.svg" />
                 <span className="ml-3">
@@ -114,7 +109,7 @@ const SubscriptionCard = () => {
             </a>
           </div>
           {/* Card third */}
-          <div className="order-3 mt-8 w-full flex-1 rounded-3xl bg-white p-8 shadow-xl sm:w-96 lg:order-3 lg:w-full lg:rounded-l-none">
+          <div className="order-3 mt-8 w-full flex-1 rounded-3xl bg-white p-8 shadow-xl sm:w-96 lg:order-3 lg:w-full">
             <div className="mb-7 flex items-center border-b border-gray-300 pb-7">
               <img
                 src="https://res.cloudinary.com/williamsondesign/abstract-3.jpg"
